@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.8" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true">  
+  <package id="1" language="java" name="export" project="ParmenidianTruth" file="/ParmenidianTruth/src/export" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="223" y="592"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="model" project="ParmenidianTruth" file="/ParmenidianTruth/src/model" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="364" y="592"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="3" language="java" name="externalTools" project="ParmenidianTruth" 
+    file="/ParmenidianTruth/src/externalTools" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="294" y="772"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="4" language="java" name="gui" project="ParmenidianTruth" file="/ParmenidianTruth/src/gui" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="294" y="412"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="5" language="java" name="core" project="ParmenidianTruth" file="/ParmenidianTruth/src/core" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="294" y="502"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="6" language="java" name="model.Loader" project="ParmenidianTruth" 
+    file="/ParmenidianTruth/src/model/Loader" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="347" y="703"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="7" language="java" name="parmenidianEnumerations" project="ParmenidianTruth" 
+    file="/ParmenidianTruth/src/parmenidianEnumerations" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="714" y="620"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <dependency id="8">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="9">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="10">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="11">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="14">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="16">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="17">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

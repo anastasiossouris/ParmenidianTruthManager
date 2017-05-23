@@ -1,0 +1,11 @@
+[main] WARN com.xuggle.xuggler - writeTrailer() with no matching call to writeHeader() (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:863)
+Exception in thread "main" java.lang.RuntimeException: error Operation not permitted, failed to write trailer to C:\Users\anast\workspace\ParmenidianTruth_Reengineered\testing_visualization_export\videovideo.mp4
+	at com.xuggle.mediatool.MediaWriter.close(MediaWriter.java:1306)
+	at foreignkeyshistory.visualization.export.VideoSchemaHistoryVisualizationExport.createVideo(VideoSchemaHistoryVisualizationExport.java:129)
+	at foreignkeyshistory.visualization.export.VideoSchemaHistoryVisualizationExport.exportToVideo(VideoSchemaHistoryVisualizationExport.java:72)
+	at foreignkeyshistory.visualization.export.VideoSchemaHistoryVisualizationExport.exportSchemaHistory(VideoSchemaHistoryVisualizationExport.java:62)
+	at foreignkeyshistory.visualization.export.SchemaHistoryVisualizationExportService.export(SchemaHistoryVisualizationExportService.java:18)
+	at testing.VisualizationExportTester.exportVideo(VisualizationExportTester.java:107)
+	at testing.VisualizationExportTester.<init>(VisualizationExportTester.java:47)
+	at testing.TestManager.testVisualizationExport(TestManager.java:23)
+	at testing.TestManager.main(TestManager.java:13)

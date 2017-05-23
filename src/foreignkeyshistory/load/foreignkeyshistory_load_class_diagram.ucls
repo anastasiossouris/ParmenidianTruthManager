@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.14" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="foreignkeyshistory.load.HecateSchemaHistoryLoader.SQLFileFilter" 
+    project="ParmenidianTruth_Reengineered" 
+    file="/ParmenidianTruth_Reengineered/src/foreignkeyshistory/load/HecateSchemaHistoryLoader.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="88" width="143" x="130" y="448"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="foreignkeyshistory.load.HecateSchemaHistoryLoader" 
+    project="ParmenidianTruth_Reengineered" 
+    file="/ParmenidianTruth_Reengineered/src/foreignkeyshistory/load/HecateSchemaHistoryLoader.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="275" x="130" y="302"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="foreignkeyshistory.load.SchemaHistoryLoader" 
+    project="ParmenidianTruth_Reengineered" 
+    file="/ParmenidianTruth_Reengineered/src/foreignkeyshistory/load/SchemaHistoryLoader.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="271" y="116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <nesting id="4">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </nesting>  
+  <realization id="5">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="false" static="true"/>    
+    <operations public="true" package="true" protected="true" private="false" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
